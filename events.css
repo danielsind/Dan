@@ -31,3 +31,6 @@ nav>ul>li>a:hover{
     float: left;
     position: fixed;
 }
+.main2{
+    display: flex;
+}
