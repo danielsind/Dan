@@ -30,3 +30,39 @@ nav{
     position: fixed;
 
 }
+#table{
+    text-align: left;
+}
+#table,tr,td,th{
+    border-collapse: collapse;
+    border-color:solid black;
+    border-spacing: 2%;
+    background-color:rgba(50, 50, 150, 0.7);
+    padding: 2%;
+    border-radius: 5%;
+    color: antiquewhite;
+}
+.td{
+    overflow-x: inherit;
+}
+h2{
+    background-color: rgba(255,190,10,1);
+    padding-top: 5%;
+    border-radius: 15%;
+}
+.footer{
+    height: 40%;
+    width: 100%;
+    margin-top: 120px;
+    font-size: 60px;
+    position: fixed;
+    background-color: aquamarine;
+}
+.icon-bar>a{
+    font-size: 60px;
+    display: inline;
+    text-align: center;
+    width:100%;
+    bottom: 0;
+    margin-bottom: 0;
+}

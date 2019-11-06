@@ -32,5 +32,32 @@ nav>ul>li>a:hover{
     position: fixed;
 }
 .main2{
+    padding: 3%;
     display: flex;
 }
+.main3{
+    padding:3%;
+    display: flex;
+}
+.youth{
+    border-radius: 10%;
+    background-color: rgba(100,100,100,0.4);
+    overflow: inherit;
+}
+.couple{
+    border-radius: 10%;
+    padding-left: 50px;
+    margin-left: 50px;
+    background-color: rgba(50, 50, 150, 0.7)
+}
+.family{
+    border-radius: 5%;
+    background-color: rgba(255,190,10,1);
+}
+.self{
+    border-radius: 10%;
+    float: right;
+    background-color: rgba(41, 100, 105, 1);
+    margin-left: 50px;
+}
+

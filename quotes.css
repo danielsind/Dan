@@ -30,3 +30,23 @@ nav{
     position: fixed;
 
 }
+.img{
+    border-radius: 80%;
+}
+#tyler{
+    padding-top: 7%;
+    background-color:rgba(255,190,10,1); 
+}
+#teresa{
+    background-color: rgba(180,100,50,0.5)
+   
+}
+#maya{
+ background-color: aquamarine;
+}
+#joyce{
+
+}
+.joshua{
+ background-color: bisque;
+}
