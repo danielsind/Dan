@@ -1,18 +1,39 @@
 img{
     border-radius: 10%;
 }
+@media screen and (max-width:900px){
+    img{
+        width: 100%;
+    }
+}
 body{
     font-size: 30px;
     text-align:center;
 }
+@media screen and (max-width:900px){
+    body{
+        font-size:15px;
+        width:100%;
+    }
+}
 ul{
     text-align: center;
+}
+@media screen and (max-width:900px){
+    ul{
+        width: 100%;
+    }
 }
 li{
     display: inline-block;
     top:5;
     padding-top: 8px;
     padding-right: 30px;
+}
+@media screen and (max-width:900px){
+    li{
+        width: 100%;
+    }
 }
 nav{
     width: 100%;
@@ -21,6 +42,11 @@ nav{
     height: 10%;
     position: fixed;
 
+}
+@media screen and (max-width:900px){
+    nav{
+        width: 100%;
+    }
 }
 nav>ul>li>a{
     color: antiquewhite;
@@ -37,6 +63,7 @@ nav>ul>li>a:hover{
 .main{
     padding-top: 70px;
 }
+
 .about{
     display: flex;
     justify-content: space-around;
@@ -57,4 +84,9 @@ nav>ul>li>a:hover{
 .Mission:hover{
     background-color: rgba(41, 48, 15, 1);
     color: antiquewhite;
+}
+@media screen and (max-width:900px){
+    img,ul,li,.main,img,.about,.Mission,.vision{
+        width: 100;
+    }
 }

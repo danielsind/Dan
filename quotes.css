@@ -44,12 +44,14 @@ nav{
 #maya{
  background-color: aquamarine;
 }
-#joyce{
-
-}
 .joshua{
  background-color: bisque;
 }
 .jayz{
     background-color: rgba(100,200,50,0.5);
+}
+@media and screen (max-width){
+    body,nav,ul,li,#joyce,#maya,#teresa,#tyler,.img,.joshua,.img,img,.logo{
+        width:100%;
+    }
 }

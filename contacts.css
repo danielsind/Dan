@@ -75,3 +75,8 @@ h2{
     font-size:75px;
     color: darkblue;
 }
+@media and screen (max width:900px){
+    body,nav,ul,li,.icon-bar,img,.footer,#table,,td,h2,tr,td,th{
+        width:100%;
+    }
+}

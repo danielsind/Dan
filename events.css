@@ -79,4 +79,9 @@ nav>ul>li>a:hover{
 h1{
     padding-top: 100px;
 }
+@media screen and (max-width:900px){
+    body,nav,ul,li,.main2,.main3,.youth,img,.family,.self{
+        width: 100%;
+    }
+}
 
