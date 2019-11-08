@@ -9,7 +9,7 @@ ul{
 li{
     display: inline-block;
     padding-top: 8px;
-    padding-right: 50px;
+    padding-right: 30px;
 }
 nav>ul>li>a{
     color: antiquewhite;
@@ -33,7 +33,6 @@ nav{
 }
 .main{
     padding-top:5%;
-    font-family: 'Indie Flower', cursive;
 
 }
 #wall{
@@ -56,4 +55,14 @@ nav{
     background-color: rgba(41, 48, 15,1);
     color: antiquewhite;
     
+}
+.mavida{
+    padding-top: 100px;
+    text-align: left;
+    background-color: rgba(41, 48, 15,1);
+}
+@ media screen and (max-width:800px){
+   body{
+       width:100%;
+   }
 }
