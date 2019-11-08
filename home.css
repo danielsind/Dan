@@ -9,6 +9,7 @@ ul{
 li{
     display: inline-block;
     padding-top: 8px;
+    padding-right: 50px;
 }
 nav>ul>li>a{
     color: antiquewhite;
@@ -42,12 +43,17 @@ nav{
     display: flex;
     text-align:inline;
     overflow: inherit;
+    background-color: rgba(255,100,0.1)
 }
 #submain>div>img{
     border-radius: 90%;
 }
 #last{
-    color: blueviolet;
     font-family: 'Shadows Into Light', cursive;
 
+}
+#submain:hover{
+    background-color: rgba(41, 48, 15,1);
+    color: antiquewhite;
+    
 }

@@ -12,6 +12,7 @@ li{
     display: inline-block;
     top:5;
     padding-top: 8px;
+    padding-right: 50px;
 }
 nav{
     width: 100%;
@@ -34,5 +35,26 @@ nav>ul>li>a:hover{
     position: fixed;
 }
 .main{
-    padding-top: 5%;
+    padding-top: 70px;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+.vision{
+    background-color: rgb(255, 128, 10,1);
+    border-radius: 120px;
+      
+}
+.Mission{
+    border-radius: 120px;
+    background-color: rgba(255,100,255,1);
+}
+.vision:hover{
+    background-color:rgba(41, 48, 15, 1);
+    color: antiquewhite;
+}
+.Mission:hover{
+    background-color: rgba(41, 48, 15, 1);
+    color: antiquewhite;
 }
