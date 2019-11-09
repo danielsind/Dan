@@ -50,8 +50,38 @@ nav{
 .jayz{
     background-color: rgba(100,200,50,0.5);
 }
-@media and screen (max-width){
-    body,nav,ul,li,#joyce,#maya,#teresa,#tyler,.img,.joshua,.img,img,.logo{
-        width:100%;
+@media screen and (max-width:1024px){
+    .logo{
+        display: none;
+    }
+    nav{
+        height: auto;
+    }
+    #tyler{
+        margin-top: 100px;
+    }
+    img{
+        height: 90%;
+        width: 90%;
+    }
+}
+@media screen and (max-width:480px){
+    .logo{
+        display: none;
+    }
+    nav{
+        height: auto;
+    }
+    #tyler{
+        margin-top: 100px;
+        padding-top: 60%;
+    }
+    .quote{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        height: 80%;
+        width: 80%;
     }
 }

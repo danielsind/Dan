@@ -38,17 +38,17 @@ nav{
     border-collapse: collapse;
     border-color:solid black;
     border-spacing: 2%;
-    background-color:rgba(100,100,1,1);
+    background-color:rgba(41, 48, 15, 1);
     padding: 2%;
     border-radius: 5%;
-    color: rgba(0,1,0,1);
+    color:antiquewhite;
     overflow: inherit;
 }
 .td{
     overflow-x: inherit;
 }
 h2{
-    background-color: rgba(255,190,10,1);
+    background-color: rgba(10,255,100,1);
     padding-top: 5%;
     border-radius: 15%;
 }
@@ -75,8 +75,43 @@ h2{
     font-size:75px;
     color: darkblue;
 }
-@media and screen (max width:900px){
-    body,nav,ul,li,.icon-bar,img,.footer,#table,,td,h2,tr,td,th{
-        width:100%;
+@media screen and (max-width:480px){
+   #divtable{
+       width: 100%;
+       height: auto;
+       font-size: 10px;
+   }
+   .nav{
+       height: auto;
+       width: 100%;
+   }
+   nav{
+       width: 100%;
+   }
+   body{
+       font-size: 10px;
+   }
+   #table{
+       width: 50%;
+       font-size: auto;
+   }
+
+}
+@media screen and (max-width:1024px)
+{
+    .logo{
+        display:none;
+    }
+    nav{
+        height: auto;
+    }
+    .icon-bar>a{
+        font-size: 150px;
+    }
+    .icon-bar>a:hover{
+        font-size: 200px;
+    }
+    #table{
+        font-size: 30px;
     }
 }
