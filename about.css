@@ -28,11 +28,13 @@ nav>ul>li>a{
 }
 nav>ul>li>a:hover{
     color: yellow;
+    overflow: hidden;
 }
 .logo{
     display: flex;
     float: left;
     position: fixed;
+    overflow: hidden;
 }
 .main{
     padding-top: 70px;
@@ -41,14 +43,17 @@ nav>ul>li>a:hover{
 .about{
     display: flex;
     justify-content: space-around;
+    overflow: hidden;
 }
 .vision{
     background-color: rgb(255, 128, 10,1);
+    overflow: hidden;
     border-radius: 120px;
       
 }
 .Mission{
     border-radius: 120px;
+    overflow: hidden;
     background-color: rgba(255,100,255,1);
 }
 .vision:hover{

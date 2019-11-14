@@ -41,15 +41,22 @@ nav{
 #submain{
     display: flex;
     text-align:inline;
+    background-color: rgba(255,100,0.1);
     overflow: inherit;
-    background-color: rgba(255,100,0.1)
+    padding-bottom: 2%;
+    padding-top: 2%;
 }
 #submain>div>img{
     border-radius: 90%;
 }
 #last{
-    font-family: 'Shadows Into Light', cursive;
-
+    background-color: chocolate;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#last:hover{
+    background-color:rgba(41, 48, 15, 1); 
+    color: antiquewhite;
 }
 #submain:hover{
     background-color: rgba(41, 48, 15,1);

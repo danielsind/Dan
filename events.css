@@ -42,23 +42,26 @@ nav>ul>li>a:hover{
 .youth{
     border-radius: 10%;
     background-color: rgba(100,100,100,0.4);
-    overflow: inherit;
+    overflow: hidden;
 }
 .couple{
     border-radius: 10%;
     padding-left: 50px;
     margin-left: 50px;
-    background-color: rgba(50, 50, 150, 0.7)
+    background-color: rgba(50, 50, 150, 0.7);
+    overflow: hidden;
 }
 .family{
     border-radius: 5%;
     background-color: rgba(255,190,10,1);
+    overflow: hidden;
 }
 .self{
     border-radius: 10%;
     float: right;
     background-color: rgba(41, 100, 105, 1);
     margin-left: 50px;
+    overflow: hidden;
 }
 .youth:hover{
     background-color: rgba(41, 48, 15, 1);
