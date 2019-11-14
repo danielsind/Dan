@@ -42,10 +42,10 @@ nav{
     padding: 2%;
     border-radius: 5%;
     color:antiquewhite;
-    overflow: inherit;
+    overflow: hidden;
 }
 .td{
-    overflow-x: inherit;
+    overflow-x: hidden;
 }
 h2{
     background-color: rgba(10,255,100,1);
